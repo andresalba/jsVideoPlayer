@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Video Player</title>
+    <link rel="stylesheet" href="player.css" />
+</head>
+<body>
+    <div id="container">
+        <div class="videoContainer">
+            <h1>Video Player</h1>
+            <video id="myVideo">
+                <source src="videos/1.mp4" />
+            </video>
+            <div class="outputContainer">
+                <output id="timeOut">Time: 0</output>
+                <output id="vidNum">Video: 1/4</output>
+            </div>
+        </div>
+        <div id="playButtons">
+            <button id="btnPlay" class="btn">PLAY</button><br/>
+            <button id="btnPause" class="btn">PAUSE</button><br/>
+            <button id="btnStop" class="btn">STOP</button><br/>
+        </div>
+        <div id="nextButtons">
+            <button id="btnNext" class="btn">NEXT</button>
+        </div>
+    </div>
+    <script src="player.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+#playButtons{
+    padding-top: 1rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nextButtons{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myVideo{
+    width: 50%;
+    height: 50%;
+}
+
+.btn{
+    width: 97%;
+    height: 2rem;
+    background-color: rgb(153, 0, 204);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.videoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outputContainer{
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
